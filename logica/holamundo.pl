@@ -20,7 +20,7 @@ mujer(ana).
 
 /* tia */
 /* funcion */
-tia(X,Y):- progenitor(Z,X), progenitor(Z,A), progenitor(A,Y), mujer(X).
+tia(X,Y):- progenitor(Z,X), progenitor(Z,A), progenitor(A,Y), mujer(x).
 
 /*abuela*/
 abuela(X,Y):- progenitor(X,Z), progenitor(Z,Y), mujer(X).
