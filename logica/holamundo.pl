@@ -9,5 +9,21 @@ progenitor(tomas,jose).
 progenitor(tomas,isabel).
 progenitor(jose,ana).
 progenitor(jose,patricia).
-progenitor(praticia,jaime).
+progenitor(patricia,jaime).
+hombre(jose).
+hombre(tomas).
+hombre(jaime).
+mujer(clara).
+mujer(isabel).
+mujer(patricia).
+mujer(ana).
+
+/* tia */
+/* funcion */
+tia(X,Y):- progenitor(Z,X), progenitor(Z,A), progenitor(A,Y), mujer(X).
+
+/*abuela*/
+abuela(X,Y):- progenitor(X,Z), progenitor(Z,Y), mujer(X).
+
+
 
