@@ -65,3 +65,5 @@ compa(X,Y):- jefe(A,X), jefe(A,Y), jefe(Y,Z), mujer(Z).
 
 /*8.- Es compañero de nivel mike de lori*/
 compa2(X,Y):- jefe(A,X), jefe(A,Y). 
+
+/*profe acabo de ver el video donde lo esplica todo me lleva jajajajaja como lo estoy haciendo por partes XD no lo habia visto*/
